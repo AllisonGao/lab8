@@ -10,8 +10,8 @@ $(document).ready(function() {
  */
 function initializePage() {
 	console.log("Page ready");
- 	// initCamera();
- 	// initMap();
+ 	initCamera();
+ 	initMap();
  	initGestures();
  	initRSVPForm();
 }
@@ -23,5 +23,5 @@ function initGestures() {
 
 // init RSVP form submit listener
 function initRSVPForm() {
-  // add your code here
+  $('')
 }
